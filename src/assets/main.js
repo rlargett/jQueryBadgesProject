@@ -15,7 +15,7 @@ $(function() {
   		var $course = $('<div />', {'class': 'course'}).appendTo($badge);
   		$('<h3 />', {text: course.title}).appendTo($course);
   		$('<img />').attr('src', course.badge).appendTo($course);
-  		$('<a />').addClass('btn btn-primary').attr('url', course.url).attr('target', '_blank').text('See Course').appendTo($course);
+  		$('<a />').addClass('btn btn-primary').attr('href', course.url).attr('target', '_blank').text('See Course').appendTo($course);
   	})
   }
 
